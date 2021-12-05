@@ -1,0 +1,1712 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Project/GetFilteredProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetFilteredProject",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/GetProjectAuditLog",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetProjectAuditLog",
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/GetProjectById",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetProjectById",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/GetProjectExcelDataById",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetProjectExcelDataById",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/CreateProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/CreateProject",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/SaveProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/SaveProject",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/SaveWellCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/SaveWellCost",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/SubmitProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/SubmitProject",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/ReturnProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/ReturnProject",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/ApproveProject",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/ApproveProject",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/AssignTeam",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/AssignTeam",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/GetNotifications",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetNotifications",
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/ReadingNotification",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/ReadingNotification",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/SaveTeam",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/SaveTeam",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeatherForecast",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //<-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/WeatherForecast/test",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/UpstreamMetricColumn/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/UpstreamMetricColumn/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/UploadExcel",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/UploadExcel",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/DeleteFileByRevisionId",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/DeleteFileByRevisionId",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    // add SaveDeterministicValues api
+    {
+      "DownstreamPathTemplate": "/api/Project/SaveDeterministicValues",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/SaveDeterministicValues",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    // add CreateCRAReport api
+    {
+      "DownstreamPathTemplate": "/api/Project/CreateCRAReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Project/CreateCRAReport",
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/UTCCost/GetCountryListWithCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/UTCCost/GetCountryListWithCost",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/UTCCost/GetCountryList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/UTCCost/GetCountryList",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/GetCraData",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/GetCraData",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Project/DownloadCoeInputTemplate",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Project/DownloadCoeInputTemplate",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "SwaggerKey": "projectservice"
+    },
+
+    /// project service end here
+    /// route for Signalr start
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "wss",
+      "DownstreamHostandPorts": [
+        //  <-------------Local Host details ------------>
+        {
+          "Host": "localhost",
+          "Port": "44384"
+        }
+      ],
+      "UpstreamPathTemplate": "/{url}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "OPTIONS"
+      ]
+    },
+    /// route for Signalr end here
+    //   auth service start
+    {
+      "DownstreamPathTemplate": "/api/User/GetFilteredGraphUsers",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/GetFilteredGraphUsers",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetLoggedInUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/GetLoggedInUser",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetFilteredUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/GetFilteredUser",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Role/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Role/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/FelStage/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/FelStage/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Department/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/Department/GetAll",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Create",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/Create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Update",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/Update",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/UpdateUsers",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/UpdateUsers",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/Delete/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "SwaggerKey": "authservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAssignedUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44388"
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/User/GetAssignedUser",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //   auth service end
+
+    //cost setting
+
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/GetCostSettings",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/GetCostSettings",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/GetCostCountry",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/GetCostCountry",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/UpdateCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/UpdateCost",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/GetFabrication",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/GetFabrication",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/UpdateFabrication",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/UpdateFabrication",
+      "UpstreamHttpMethod": [
+        "PUT"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/DeleteSingleCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/DeleteSingleCost",
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/DeleteSingleFabrication",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/DeleteSingleFabrication",
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/GetTIOptimizationCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/GetTIOptimizationCost",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CostSettings/UpdateTIOptimizationCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44317"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CostSettings/UpdateTIOptimizationCost",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/HUCHookupAndCommisionEst/GetHUCDefaultValues",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "ptsg-5cfwb05.azurewebsites.net",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HUCHookupAndCommisionEst/GetHUCDefaultValues",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/HUCHookupAndCommisionEst/CalculateHUCHookupCost",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "ptsg-5cfwb05.azurewebsites.net",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HUCHookupAndCommisionEst/CalculateHUCHookupCost",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/HUCHookupAndCommisionEst/DownloadCostSumaryExcelFile",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "ptsg-5cfwb05.azurewebsites.net",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HUCHookupAndCommisionEst/DownloadCostSumaryExcelFile",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //cost setting end
+
+    // start pipeline size apis
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/GetFlowlineRatingSettings",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/GetFlowlineRatingSettings",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/GetPipelineSizeSettings",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/GetPipelineSizeSettings",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/GetFlowlineSizeSettings",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/GetFlowlineSizeSettings",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/DeleteLiquidPipelineSizeSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/DeleteLiquidPipelineSizeSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/SaveLiquidPipelineSizeSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/SaveLiquidPipelineSizeSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/SavePipelineSizeCalcSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/SavePipelineSizeCalcSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/DeletePipelineSizeCalcSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/DeletePipelineSizeCalcSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/SavePipelineRatingSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/SavePipelineRatingSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/DeletePipelineRatingSetting",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/DeletePipelineRatingSetting",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/SaveFlowlineSettingCommand",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/SaveFlowlineSettingCommand",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PipelineSize/DeleteFlowlineSettingCommand",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44378"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PipelineSize/DeleteFlowlineSettingCommand",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    //ConceptBrain Setting apis Start
+    {
+      "DownstreamPathTemplate": "/api/BrainTreeType/GetTreeType",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainTreeType/GetTreeType",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainTreeType/SaveTreeType",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainTreeType/SaveTreeType",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainTreeType/DeleteTreeType",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainTreeType/DeleteTreeType",
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetWaterDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetWaterDisposal",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/SaveWaterDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/SaveWaterDisposal",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/DeleteWaterDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/DeleteWaterDisposal",
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetPwtInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetPwtInjection",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/SavePwtInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/SavePwtInjection",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/DeletePwtInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/DeletePwtInjection"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetExternalWaterInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetExternalWaterInjection",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/SaveExternalWaterInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/SaveExternalWaterInjection",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/DeleteExternalWaterInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/DeleteExternalWaterInjection"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainTreeType/GetFilteredTreeTypeList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/BrainTreeType/GetFilteredTreeTypeList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredWaterDisposalList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredWaterDisposalList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredPwtInjectionList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredPwtInjectionList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredExternalWaterInjectionList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/BrainWaterHandling/GetFilteredExternalWaterInjectionList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeightEstimate/GetAllWeightEstimates",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/WeightEstimate/GetAllWeightEstimates"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeightEstimate/SaveWeightEstimate",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "UpstreamPathTemplate": "/api/WeightEstimate/SaveWeightEstimate"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeightEstimate/GetAllMasterEquipment",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/WeightEstimate/GetAllMasterEquipment"
+    },
+    {
+      "DownstreamPathTemplate": "/api/WeightEstimate/GetWeightEstimateById",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/WeightEstimate/GetWeightEstimateById"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainOilHandling/GetOilHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainOilHandling/GetOilHandling",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainOilHandling/SaveOilHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainOilHandling/SaveOilHandling",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainOilHandling/DeleteOilHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "DELETE"
+      ],
+      "UpstreamPathTemplate": "/api/BrainOilHandling/DeleteOilHandling"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainOilHandling/GetFilteredOilHandlingList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "UpstreamPathTemplate": "/api/BrainOilHandling/GetFilteredOilHandlingList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetGasExport",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetGasExport",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/SaveGasExport",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/SaveGasExport",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/DeleteGasExport",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/DeleteGasExport"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasExportList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasExportList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetGasInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetGasInjection",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/SaveGasInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/SaveGasInjection",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/DeleteGasInjection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/DeleteGasInjection"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasInjectionList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasInjectionList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetGasDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetGasDisposal",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/SaveGasDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/SaveGasDisposal",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/DeleteGasDisposal",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/DeleteGasDisposal"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasDisposalList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainGasHandling/GetFilteredGasDisposalList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasContaminantMgmt/GetGasContaminantMgmt",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasContaminantMgmt/GetGasContaminantMgmt",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasContaminantMgmt/SaveGasContaminantMgmt",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainGasContaminantMgmt/SaveGasContaminantMgmt",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasContaminantMgmt/DeleteGasContaminantMgmt",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainGasContaminantMgmt/DeleteGasContaminantMgmt"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainGasContaminantMgmt/GetFilteredGasContaminantMgmtList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainGasContaminantMgmt/GetFilteredGasContaminantMgmtList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainCondensateHandling/GetCondensateHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainCondensateHandling/GetCondensateHandling",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainCondensateHandling/SaveCondensateHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainCondensateHandling/SaveCondensateHandling",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainCondensateHandling/DeleteCondensateHandling",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainCondensateHandling/DeleteCondensateHandling"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainCondensateHandling/GetFilteredCondensateHandlingList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainCondensateHandling/GetFilteredCondensateHandlingList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainSubstructure/GetSubstructure",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainSubstructure/GetSubstructure",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainSubstructure/SaveSubstructure",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainSubstructure/SaveSubstructure",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainSubstructure/DeleteSubstructure",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainSubstructure/DeleteSubstructure"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainSubstructure/GetFilteredSubstructureList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainSubstructure/GetFilteredSubstructureList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainPressureProtection/GetPressureProtection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainPressureProtection/GetPressureProtection",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainPressureProtection/SavePressureProtection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainPressureProtection/SavePressureProtection",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainPressureProtection/DeletePressureProtection",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainPressureProtection/DeletePressureProtection"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainPressureProtection/GetFilteredPressureProtectionList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainPressureProtection/GetFilteredPressureProtectionList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainAccommodation/GetAccommodation",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainAccommodation/GetAccommodation",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainAccommodation/SaveAccommodation",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainAccommodation/SaveAccommodation",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainAccommodation/DeleteAccomodation",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainAccommodation/DeleteAccomodation"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainAccommodation/GetFilteredAccomodationList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainAccommodation/GetFilteredAccomodationList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/GetDrillingAndWorkoverStrategy",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/GetDrillingAndWorkoverStrategy",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/SaveDrillingAndWorkoverStrategy",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/SaveDrillingAndWorkoverStrategy",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/DeleteDrillingAndWorkoverStrategy",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "UpstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/DeleteDrillingAndWorkoverStrategy"
+    },
+    {
+      "DownstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/GetFilteredDrillingAndWorkoverStrategyList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/BrainDrillingAndWorkoverStrategy/GetFilteredDrillingAndWorkoverStrategyList"
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectConceptQueue/GetProjectConceptQueueById",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/ProjectConceptQueue/GetProjectConceptQueueById"
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectConceptQueue/SaveProjectConceptQueue",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "POST" ],
+      "UpstreamPathTemplate": "/api/ProjectConceptQueue/SaveProjectConceptQueue"
+    },
+    {
+      "DownstreamPathTemplate": "/api/GenerateConcept/GetConceptsList",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44319"
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamPathTemplate": "/api/GenerateConcept/GetConceptsList"
+    }
+    //ConceptBrain Setting apis End
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "projectservice",
+      "Config": [
+        {
+          "Name": "ProjectService API",
+          "Version": "v1",
+          "Url": "http://localhost:44364/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "authservice",
+      "Config": [
+        {
+          "Name": "AuthService API",
+          "Version": "v1",
+          "Url": "http://localhost:44301/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44366"
+  }
+}

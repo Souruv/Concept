@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<License Key="JYr60e14h8EN/k7MAQBeHEqRMJqdHy0nDhXO7ZX580ILn533U1pOV4dqiERAh4F6ECjlocb98iVFKV/NpckRLc+TeX6gUHn9nOWbYLqUdsREElUECDhNR7uYYKd4jDYcTwqJ8AzGn4vF+yaLXz9/mgQVTf2nMK+NkNJ3QIx0+e9tlMvCH9OYDk914MiORrGtwWeBqjpycyOjei7EHwFjMMKS9SvoWW1+ADRts8x4srEZ8V23bMSHp4mjI8yLxyITFrQ2UBbrSohWE4Wwj3bukQ/0FJfWjHZqGWpfd7164J0K/p19hlI9bMLJNgfUcc0v6tIx5gsF6gzEPfZZoIVIfyVk2978x7LX+1uGxAWvSwgtp3gBhPfF1b9ieMIUwmFdln0rauKgazy6RHSOHWrevZRtDCnPkiT/EhxEvQiNZriZ+Mqv2p5b8rCU1Qm9mcIrnqV9JQfOWQzVe+K/kbm08mmPGwyZ6QlV6foKY3LtuCtHknmzlEXDQMjsAXD7W4pRklsqLNdXj8V1NhCY2j9uLVA7XL50TkY40YO+h3D7X3r7yvl6wpaem5D7tLQbOkoARv6CkFZFbWAENEcTOyL7yX+CDj9gR9fUHoCqukdqyjT/H6NxyK4ivkKcOFImgg5VAijMYO1x1f2ZZjcuUo6bNQwYJugPFq1ZEUUwekgWb1GOtGgzRFl7wY4N6WwVDmDoG9Bz1nCtl3LyAWa43PnmyWfZSPM0CbVhbyZWU4nPFOIDJufFo1SKq4l5O5OJQK5F+c5QAlRCz/d3+E6oSm6k/tSpFlFr11ldFHqGgJviEybvVJ9mscvlyy7EuigsVI27rf0dmAg6NBFYRoMKGJF0/1BB6+xHklaMadRViaWjImAGqGuhKhzYoTyLM5M6oRZDnFmCvN0QsxxYSW8NzUnNWd6BjFvTB6QzuKEd3VJtfxReEoT5kQDeqRq0oQRvyD0a/0JnR24N3mIb4W7zbrKxfEQKxfVrCch5/qbHDckrOw/e9573tuey8B5w7GyHPswK8tD/xKLvxjUed5bzt+/6MBgA6CiFZDAQDgkaPVxEnRIwMHaXlQkyiIqDERbjI8dI2b2DMxgYOwGfqdheRbHm1NzGKXqF2AV8scN6dhvH3IXh9U35nex4UKU3YV6byHmKIzKq7mbSmOERu0vJ0h6Ak2Ii68cCCS4tefxkTfvppE56cMdnfFcuwzKq2dYcUOlZCNNvMs7AyKj3Xt85PB+GmCZzKtjOHOcArosr4d4tZaYmyUeHoOt0AczfpzAPD7MkOscsib3qvoFLN7dencdxK6kb+FU0YYSO0uqRh3/IxPPPmclJWKYGIgBX6Ur+ZsXTg8mjTFaEg0wNNJMuY+QSxiYWxl0AP5wIn4RGlZl5Eqedxl7+GdCffjrMGmWHhnHafbQ7SLShtbnfiB5Yme3VJt2VvE4I+pgtk9U3fQdC0uRRsPVpvxoh6m/M+nDefR6wyEx7WXkP/kZbR4fr5yC3xs9zxf5oSGICd1ZqQdETRiLH3RV3Z7B15Q==" Version="1.3">
+    <Type>Runtime</Type>
+    <Username>azani mat jusoh</Username>
+    <Email>azani.matjusoh@petronas.com.my</Email>
+    <Organization>PETRONAS ICT</Organization>
+    <LicensedDate>2019-09-26T00:00:00Z</LicensedDate>
+    <ExpiredDate>2020-09-26T00:00:00Z</ExpiredDate>
+    <Products>
+        <Product>
+            <Name>Spire.Office for .NET</Name>
+            <Version>4.9</Version>
+            <Subscription>
+                <NumberOfPermittedDeveloper>1</NumberOfPermittedDeveloper>
+                <NumberOfPermittedSite>1</NumberOfPermittedSite>
+            </Subscription>
+        </Product>
+    </Products>
+    <Issuer>
+        <Name>e-iceblue</Name>
+        <Email>sales@e-iceblue.com</Email>
+        <Url>http://www.e-iceblue.com</Url>
+    </Issuer>
+</License>
